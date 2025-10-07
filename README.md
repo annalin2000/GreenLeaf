@@ -8,13 +8,13 @@ A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy
 
 ```
 greenleaf-pharmacy/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-└── assets/
-    ├── style.css
-    └── images/
+├── index.html         
+├── about.html         
+├── services.html       
+├── contact.html        
+├── assets/
+│   └── style.css     
+└── images/            
 ```
 
 ## 🖥️ Overview
