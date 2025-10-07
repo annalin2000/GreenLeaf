@@ -50,5 +50,4 @@ Key features include:
 
 ## 🔗 Live Demo
 
-You can see the site live at:  
-**https://annalin2000.github.io/GreenLeaf/**  
+You can see the site live at: https://annalin2000.github.io/GreenLeaf/
