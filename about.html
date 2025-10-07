@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Meet the GreenLeaf Pharmacy team and learn about our mission, values, and community care." />
+  <title>About — GreenLeaf Pharmacy</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="topbar" role="region" aria-label="Service notice">
+    <div class="container topbar-inner">
+      <p><strong>Free local delivery</strong> for eligible patients</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Green<span>Leaf</span></a>
+
+      <form class="site-search" action="services.html" role="search">
+        <label class="sr-only" for="q2">Search services</label>
+        <input id="q2" name="q" type="search" placeholder="Search services" />
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+
+      <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span> ☰
+      </button>
+
+      <nav id="primary-nav" aria-label="Primary" class="site-nav">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link active" href="about.html" aria-current="page">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+    <h1 class="page-title">Who we are</h1>
+    <p class="lead">We are your neighbourhood pharmacy, combining modern services with friendly, face to face care</p>
+
+    <div class="split">
+      <div>
+        <h2 class="section-title">Our mission</h2>
+        <ul class="checklist">
+          <li>Make healthcare simpler</li>
+          <li>Accessible services</li>
+          <li>Professional advice</li>
+          <li>Supportive community</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="section-title">What we value</h2>
+        <ul class="checklist">
+          <li>Patient safety &amp; privacy</li>
+          <li>Clear communication</li>
+          <li>Evidence-based advice</li>
+          <li>Community wellbeing</li>
+        </ul>
+      </div>
+    </div>
+
+    <section aria-labelledby="team">
+      <h2 id="team" class="section-title">Meet the team</h2>
+      <div class="card-row">
+        <article class="card compact">
+          <img src="images/Pharmacist.png" alt="Anna Lin — Superintendent Pharmacist"  />
+          <div class="card-body">
+            <h3 class="card-title">Anna Lin</h3>
+            <p>Superintendent Pharmacist</p>
+          </div>
+        </article>
+        <article class="card compact">
+          <img src="images/Jordan.png" alt="Jordan Lee — Pharmacy Technician" />
+          <div class="card-body">
+            <h3 class="card-title">Jordan Lee</h3>
+            <p>Pharmacy Technician</p>
+          </div>
+        </article>
+        <article class="card compact">
+          <img src="images/Patel.png" alt="Nina Patel — Healthcare Assistant" />
+          <div class="card-body">
+            <h3 class="card-title">Nina Patel</h3>
+            <p>Healthcare Assistant</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> GreenLeaf Pharmacy. All rights reserved</p>
+      <ul class="footer-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const btn = document.querySelector('.menu-toggle');
+      const nav = document.getElementById('primary-nav');
+      if (btn && nav) btn.addEventListener('click', ()=> {
+        const open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(open));
+      });
+    })();
+  </script>
+
+</body>
+</html>
