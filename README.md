@@ -7,13 +7,13 @@ A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy
 ## 📁 Project Structure
 
 greenleaf-pharmacy/
-├── index.html # Home page
-├── about.html # About page — mission, values, and team
-├── services.html # Services offered by the pharmacy
-├── contact.html # Contact form and inquiry section
-├── assets/
-│ └── style.css # Main stylesheet
-└── images/ # Images for cards, team, and sections
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+└── assets/
+    ├── style.css
+    └── images/
 
 ## 🖥️ Overview
 
