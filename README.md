@@ -1,21 +1,19 @@
 # 🌿 GreenLeaf Pharmacy Website
 
-A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy**, a community-based pharmacy providing prescriptions, vaccinations, and health services.  
-This site is designed for clarity, accessibility, and ease of navigation on all devices.
+A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy**, a community based pharmacy providing prescriptions, vaccinations, and health services. This site is designed for clarity, accessibility, and ease of navigation on all devices.
 
 ---
 
 ## 📁 Project Structure
 
 greenleaf-pharmacy/
-├── index.html
-├── about.html 
-├── services.html
-├── contact.html 
+├── index.html # Home page
+├── about.html # About page — mission, values, and team
+├── services.html # Services offered by the pharmacy
+├── contact.html # Contact form and inquiry section
 ├── assets/
-│ └── style.css 
-└── images/ 
----
+│ └── style.css # Main stylesheet
+└── images/ # Images for cards, team, and sections
 
 ## 🖥️ Overview
 
@@ -26,8 +24,6 @@ Key features include:
 - 👩‍⚕️ **About page** — introduction to the team and pharmacy values.  
 - 💊 **Services page** — details of offered services like NHS prescriptions and health checks.  
 - 📬 **Contact page** — accessible form for inquiries or service requests.
-
-Each page is responsive, optimized for mobile, and includes ARIA roles and semantic HTML for accessibility.
 
 ---
 
@@ -46,9 +42,7 @@ Each page is responsive, optimized for mobile, and includes ARIA roles and seman
 - **HTML5** — semantic and structured markup  
 - **CSS3** — modern styling with CSS variables, flexbox, and media queries  
 - **Vanilla JavaScript** — for interactive navigation and dynamic footer year  
-- **Responsive Design** — mobile-first approach with adaptive layout  
-
-No external frameworks or dependencies are required.
+- **Responsive Design** — mobile first approach with adaptive layout  
 
 ---
 
