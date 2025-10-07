@@ -4,19 +4,6 @@ A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy
 
 ---
 
-## 📁 Project Structure
-
-```
-greenleaf-pharmacy/
-├── index.html         
-├── about.html         
-├── services.html       
-├── contact.html        
-├── assets/
-│   └── style.css     
-└── images/            
-```
-
 ## 🖥️ Overview
 
 **GreenLeaf Pharmacy** provides an inviting and informative digital presence for a local pharmacy.  
@@ -45,6 +32,21 @@ Key features include:
 - **CSS3** — modern styling with CSS variables, flexbox, and media queries  
 - **Vanilla JavaScript** — for interactive navigation and dynamic footer year  
 - **Responsive Design** — mobile first approach with adaptive layout  
+
+---
+
+## 📁 Project Structure
+
+```
+greenleaf-pharmacy/
+├── index.html         
+├── about.html         
+├── services.html       
+├── contact.html        
+├── assets/
+│   └── style.css     
+└── images/            
+```
 
 ---
 
