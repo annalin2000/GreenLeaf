@@ -6,6 +6,7 @@ A modern, responsive, and accessible multi-page website for **GreenLeaf Pharmacy
 
 ## 📁 Project Structure
 
+```
 greenleaf-pharmacy/
 ├── index.html
 ├── about.html
@@ -14,6 +15,7 @@ greenleaf-pharmacy/
 └── assets/
     ├── style.css
     └── images/
+```
 
 ## 🖥️ Overview
 
